@@ -25,7 +25,7 @@ services:
     depends_on:
       - dtrack-apiserver
     environment:
-      - API_BASE_URL=https://8080-dudusae-dependencytrack-7942ksljx22.ws-us115.gitpod.io
+      - API_BASE_URL=https://8081-dudusae-dependencytrack-7942ksljx22.ws-us115.gitpod.io
     ports:
       - "8080:8080"
     restart: unless-stopped
