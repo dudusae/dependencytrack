@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
-  - init: curl -LO https://dependencytrack.org/docker-compose.yml
+  - init: echo "Initializing Gitpod workspace..."
   - command: docker-compose up -d
