@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-# Install Docker and Docker Compose
+# Install Docker
 USER root
 RUN apt-get update && \
     apt-get install -y docker.io && \
